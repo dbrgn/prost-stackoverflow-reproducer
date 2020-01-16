@@ -1,0 +1,11 @@
+[package]
+name = "prost-stackoverflow-reproducer"
+version = "0.1.0"
+authors = ["Danilo Bargen <mail@dbrgn.ch>"]
+edition = "2018"
+
+[dependencies]
+prost = "0.6"
+
+[build-dependencies]
+prost-build = "0.6"
